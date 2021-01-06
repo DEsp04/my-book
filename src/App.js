@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import Book from "./Components/Book"
+import Footer from "./Components/Footer"
+import Header from "./Components/Header"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Book title="The Power of Now" description="Lorem dolor sit amet, an sea omnis luptaum, ea consul iudicabit duo. Cu enim lucilus vic, ut pri decore nostro patentium. Ne sea summo deleniti Ea omnes nominati pro. At vis propriae consequat torquantos, ex facer oratio mel. Quodsi tritani appareat his ei, atqui facilis quaestio enum eu." img="" />
+      <Book title="The Alchemist" description="Lorem dolor sit amet, an sea omnis luptaum, ea consul iudicabit duo. Cu enim lucilus vic, ut pri decore nostro patentium. Ne sea summo deleniti Ea omnes
+      nominati pro. At vis propriae consequat torquantos, ex facer oratio mel. Quodsi tritani appareat his ei, atqui facilis
+      quaestio enum eu." img="" />
+      <Footer />
     </div>
   );
 }

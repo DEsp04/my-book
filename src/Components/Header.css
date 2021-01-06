@@ -1,0 +1,36 @@
+.nav {
+  background-color: #f8c86f;
+  display: flex;
+  margin: 0%;
+}
+
+h1 {
+  width: 25%;
+  margin-left: 2%;
+  color: #c765ad;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 2%;
+  align-items: center;
+}
+
+li {
+  margin: 0 2%;
+}
+
+a {
+  text-decoration: none;
+  color: #c765ad;
+  font-weight: bold;
+}
+
+h2 {
+  color: #c765ad;
+  
+}
+
