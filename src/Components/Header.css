@@ -2,6 +2,7 @@
   background-color: #f8c86f;
   display: flex;
   margin: 0%;
+  box-shadow: 0 8px 6px -6px black;
 }
 
 h1 {
@@ -29,8 +30,5 @@ a {
   font-weight: bold;
 }
 
-h2 {
-  color: #c765ad;
-  
-}
+
 

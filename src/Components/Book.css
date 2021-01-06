@@ -1,9 +1,16 @@
 .books {
   background-color: #f8c86f;
-  margin: 0% 10%;
+  margin: 2% 10%;
+  border: #f29b79 5px solid;
+
 }
 
 p {
   color: #c765ad;
   font-weight: bolder;
+}
+
+h2 {
+  color: #c765ad;
+  
 }
