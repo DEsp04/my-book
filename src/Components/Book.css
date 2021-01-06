@@ -1,16 +1,30 @@
 .books {
   background-color: #f8c86f;
-  margin: 2% 10%;
+  margin: 2% 24%;
   border: #f29b79 5px solid;
 
 }
 
 p {
+  width: 48%;
   color: #c765ad;
   font-weight: bolder;
 }
 
 h2 {
   color: #c765ad;
-  
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  background-color: beige;
+  margin-bottom: 2%;
 }
