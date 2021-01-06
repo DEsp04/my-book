@@ -1,5 +1,5 @@
-html, body {
-  height: 100%;
+body {
+  border: #7d62bc solid 5px;
 }
 
 .nav {

@@ -2,7 +2,7 @@
   background-color: #f8c86f;
   margin: 2% 24%;
   border: #f29b79 5px solid;
-
+  
 }
 
 p {
@@ -14,6 +14,8 @@ p {
 h2 {
   color: #c765ad;
   text-align: center;
+  font-size: 2.2rem;
+  font-weight: bolder;
 }
 
 .flex {
