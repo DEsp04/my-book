@@ -5,6 +5,9 @@ import faker from 'faker';
 import Data from './Data'
 
 function App() {
+  //below is the JSON that's coming from the Data component
+  console.log(Data);
+
   return (
     <div className="App">
       <Header />
@@ -15,6 +18,7 @@ function App() {
 
       {
         Data.map((books) => {
+          //Books is an array with object as element.
           return <Book bookObj={books} />
         })
       }
