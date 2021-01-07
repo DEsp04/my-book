@@ -13,9 +13,11 @@ function App() {
       nominati pro. At vis propriae consequat torquantos, ex facer oratio mel. Quodsi tritani appareat his ei, atqui facilis
       quaestio enum eu." img={faker.image.image()} /> */}
 
-      {Data.map((cur) => {
-        return <Book title={cur.title} img={cur.img} description="cur.desc" />
-      })}
+      {
+        Data.map((books) => {
+          return <Book bookObj={books} />
+        })
+      }
       <Footer />
     </div>
   );
